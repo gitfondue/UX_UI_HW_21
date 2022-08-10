@@ -1,0 +1,93 @@
+body {
+  background-color: #EAEAEA;
+  font-family: "Figtree"; 
+  font-size: 15px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Quicksand";
+}
+
+#title {
+  margin: 0px;
+}
+
+#majorTitle {
+  font-size: 40px;
+  font-family: "Quicksand";
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-family: "Inconsolata";
+  font-size: 30px;
+  margin: 0px;
+}
+
+h4 {
+  border-bottom: solid;
+  padding: 5px;
+  margin: 0px;
+  border-color: #E54B4B;
+  display: inline;
+  font-family: "Happy Monkey";
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#title {
+  text-align: center;
+}
+.fileTabs {
+  position: absolute;
+  top: -78px;
+  right: 0;
+}
+
+.tab {
+  background-color: #8643c4;
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  font-family: "Happy Monkey";
+}
+
+.tab:hover {
+  background-color: #4c1a7a;
+}
+
+#main {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  position: relative;
+}
+
+.list {
+  text-align: left;
+}
+
+.desc {
+  border: solid;
+  border-color: #8643c4;
+  border-width: 30px;
+  background-color: white;
+  align-items: center;
+  position: relative;
+  padding: 30px;
+  box-shadow: 10px 10px 5px gray;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
